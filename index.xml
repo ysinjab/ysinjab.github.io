@@ -2,20 +2,20 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Website of Jane Doe</title>
-    <link>https://example.com/</link>
+    <link>ysinjab.github.io/</link>
     <description>Recent content on Website of Jane Doe</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     
-	<atom:link href="https://example.com/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="ysinjab.github.io/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>About</title>
-      <link>https://example.com/about/</link>
+      <link>ysinjab.github.io/about/</link>
       <pubDate>Sat, 08 Aug 2020 16:31:25 +0300</pubDate>
       
-      <guid>https://example.com/about/</guid>
+      <guid>ysinjab.github.io/about/</guid>
       <description></description>
     </item>
     
