@@ -2,6 +2,7 @@
 title = 'Randomness in cryptography'
 date = 2024-11-09T20:28:26+03:00
 publishResources = true
+truncated = false
 +++
 
 “There isn’t enoguh entropy in this secret word!” A sentence had me wondered what does entropy means? and what does it have to do with cryptography. In this post I will share with you reading notes I collected to understand how randomness is important in cryptography world.

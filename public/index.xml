@@ -2,24 +2,24 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>ysinjab</title>
-    <link>https://example.org/</link>
+    <link>http://localhost:62540/</link>
     <description>Recent content on ysinjab</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Sat, 09 Nov 2024 20:28:26 +0300</lastBuildDate>
-    <atom:link href="https://example.org/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:62540/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Randomness in cryptography</title>
-      <link>https://example.org/randomness_in_crypto/</link>
+      <link>http://localhost:62540/randomness_in_crypto/</link>
       <pubDate>Sat, 09 Nov 2024 20:28:26 +0300</pubDate>
-      <guid>https://example.org/randomness_in_crypto/</guid>
+      <guid>http://localhost:62540/randomness_in_crypto/</guid>
       <description>&lt;p&gt;“There isn’t enoguh entropy in this secret word!” A sentence had me wondered what does entropy means? and what does it have to do with cryptography. In this post I will share with you reading notes I collected to understand how randomness is important in cryptography world.&lt;/p&gt;&#xA;&lt;p&gt;Firstly, there are many cryoptographic algorithms out there that requires randomness at some point wether it is secret keys, IV, or noces etc. But what is the source of this randomness? Usually cryptographic applications extract randomness from observing hard-to-predict physical phenomena.&lt;/p&gt;</description>
     </item>
     <item>
       <title>About</title>
-      <link>https://example.org/about/</link>
+      <link>http://localhost:62540/about/</link>
       <pubDate>Sat, 09 Nov 2024 20:14:09 +0300</pubDate>
-      <guid>https://example.org/about/</guid>
+      <guid>http://localhost:62540/about/</guid>
       <description>&lt;p&gt;This blog aims to provide useful everyday tips about algorithms, databases, Go and Python programming languages.&lt;/p&gt;&#xA;&lt;h4 id=&#34;about-the-author&#34;&gt;About the author&lt;/h4&gt;&#xA;&lt;p&gt;I’m principal software enigneer building sclable systems at Mozn.&lt;/p&gt;&#xA;&lt;p&gt;Before Mozn, I worked at small and large companies. I’ve spent majority of my career at building distributed systems, big data solutions, and managing team &amp;amp; leadership.&lt;/p&gt;&#xA;&lt;p&gt;I live in Riyadh, Saudi Arabia.&lt;/p&gt;&#xA;&lt;h4 id=&#34;contact&#34;&gt;Contact&lt;/h4&gt;&#xA;&lt;p&gt;Email: &lt;a href=&#34;mailto:ysinjab@gmail.com&#34;&gt;ysinjab@gmail.com&lt;/a&gt;&lt;/p&gt;</description>
     </item>
   </channel>
