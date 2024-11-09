@@ -1,0 +1,43 @@
+<aside class="sidebar">
+  <div class="container sidebar-sticky">
+    <div class="sidebar-about">
+      <a href="{{ .Site.BaseURL }}"><h1>{{ .Site.Title }}</h1></a>
+      <p class="lead">
+        {{ with .Site.Params.description }} {{.}} {{ else }}I write about things
+        I find interesting. {{end}}
+      </p>
+      <p>
+        by
+        <a
+          style="font-weight: bold; font-style: italic"
+          href="https:\\x.com\ysinjab"
+          >@ysinjab</a
+        >.
+      </p>
+    </div>
+
+    <nav>
+      <ul class="sidebar-nav">
+        <li><a href="{{ .Site.BaseURL }}">Home</a></li>
+        {{ range .Site.Menus.main -}}
+        <li><a href="{{.URL}}"> {{ .Name }} </a></li>
+        {{- end }}
+      </ul>
+    </nav>
+
+    <p>
+      Subscribe to the
+      <a style="font-weight: bold" href="{{ .Site.BaseURL }}index.xml">feed</a>.
+    </p>
+    <p>
+      This work is licensed under a
+      <a style="font-weight: bold" href="{{ .Site.Params.licenseurl }}"
+        >Creative Commons Attribution-ShareAlike 4.0 International License</a
+      >.
+    </p>
+    <p>
+      {{ with .Site.Params.copyright }}{{.}}{{ else }}&copy; {{ now.Format
+      "2006"}}. All rights reserved. {{end}}
+    </p>
+  </div>
+</aside>
