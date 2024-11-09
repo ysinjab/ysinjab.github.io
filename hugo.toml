@@ -1,0 +1,17 @@
+baseURL = 'https://example.org/'
+languageCode = 'en-us'
+title = 'ysinjab'
+theme = 'hyde'
+googleAnalytics = 'G-EQ7GNFQD84'
+
+[Menus]
+  main = [
+      {Name = "Github", URL = "https://github.com/ysinjab/"},
+      {Name = "LinkedIn", URL = "https://www.linkedin.com/in/ysinjab/"},
+      {Name = "X", URL = "https://x.com/ysinjab/"},
+      {Name = "Medium", URL = "https://medium.com/@ysinjab"}
+  ]
+
+[params]
+  layoutReverse = true
+  licenseurl = 'https://creativecommons.org/licenses/by-nc-sa/4.0/'
